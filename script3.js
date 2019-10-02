@@ -48,7 +48,7 @@ function topFunction() {
 
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "450px";
+  document.getElementById("mySidenav").style.width = "350px";
 }
 
 function closeNav() {
