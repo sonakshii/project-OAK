@@ -1,300 +1,326 @@
 *{
-	overflow-x: hidden;
+overflow-x: hidden;
 }
+
 #navicon{
-	font-size: 35px;
-	color: black;
-	margin-left: 97%;
-	margin-top: 1%;
+font-size: 35px;
+color: black;
+margin-left: 96%;
+margin-top: 1%;
 }
-#fix{
-	position: fixed;
-	margin-left: 94%;
-	margin-top:38%;
+
+#one{
+margin-top:-2px;
+margin-left: 10%;
+z-index: 100;
 }
-#fix button{
-	background-color: black;
-}
-#fix i{
-	font-size:40px;
-	color: white;
-}
-	#one{
-	margin-top:-3%;
-	margin-left: 10%;
-	z-index: 100;
-}
-#two{
-	width:1195px;
-	height:600px;
-    margin-left:9.2%;
-    margin-top: 3%;
-}
-#five{
-	position: absolute;
-}
-.three{
-	width: 50%;
-	height: 500px;
-	margin-left: 7.5%;
-	margin-top: 4.5%;
-}
-.three h1{
-	padding: 3.5%;
-	padding-top: 10%;
-}
-#x{
-	margin-top: -40px;
-	margin-left:3.7%;
-}
-.three pre{
-	font-size: 25px;
-}
-.three #matter{
-	padding-left: 3.7% ;
-	font-size: 19px;
-	color: grey;
-}
-#four{
-	margin-left: 62%;
-	margin-top: -500px;
-	position: relative;
-	overflow: hidden;
-}
-#four img{
-	width: 400px;
-	height:500px;	
-}
-#why{
-	margin-top:40%;
-	height: 540px;
-	width: 100%;
-	position: absolute;
-}
-#why h1{
-	margin-left: 9%;
-}
-#y{
-	margin-left: 9%;
-	margin-top: -11px;
-}
-#why h4{
-	font-size:20px;
-	margin-left:9%;
-	margin-top: -1px;
-}
-.yo{
-	margin-left: 13px;
-}
-#why #a{
-	width:24%;
-	margin-left:8%;
-	margin-top: 10px;
-    position: relative;
-    height: 400px;
-}
-#a i{
-	color: black;
-	font-size:40px; 
-}
-#why #b{
-	width:24%;
-    margin-left:33%;
-    margin-top:-400px;
-    height: 400px;
-}
-#b i{
-	color: black;
-	font-size:40px; 
-}
-#why #c{
-	width:24%;
-    margin-left:63%;
-    margin-top:-400px;
-    height: 400px;
-}
-#c i{
-	color: black;
-	font-size:40px; 
-}
-h2{
-	padding-left:13px;
-}
-#why p{
-	padding:16px;
-	font-size: 18px;
-	color: grey;
-}
-#work{
-	margin-top: 75%;
-	width:90%;
-	margin-left:9%;
-	position: absolute;
-    z-index: 4;
-}
-#work h1{
-	margin-left:1px%;
-}
-#work hr{
-	margin-top: -10px;
-	margin-left:1px;
-}
-#work p{
-    margin-left:1px;
-    font-size:20px;
-}
-#like img:hover{
-	cursor: url(cursor.png), auto;
-	opacity: 0.7;
-}
-#news{
-	width: 1180px;
-	height:300px;
-    margin-top:175%;
-    margin-left:9%;
-    position:absolute; 
-}
-#left{
-	float: left;
-	width: 50%;
-	height: 100%;
-	position: relative;
-	background-color: lightgreen;
-	text-align: center;
-	}
-#left p{
-	font-size: 35px;
-}
-#w{
-	margin-top: 15.5%;
-	font-size: 30%;
-}
-#right{
-	float: right;
-	width: 50%;
-	height: 100%;
-	position: relative;
-	background-color: black;
-}
-#btwn{
-	width: 70%;
-	height: 60%;
-	margin-top: 10%;
-	margin-left: 15%;
-	position: relative;
-	background-color:white;
-}
-#btwn button{
-    text-align: center;
-    padding: 14px;
-    font-size: 20px;
-    background-color: lightgreen;
-    margin-top: 7%;
-    margin-left: 30%;
-    cursor: pointer;
-}
-#btwn input{
-	margin-top: 10%;
-	width: 300px;
-	height: 30px;
-	margin-left: 13%;
-}
-#footer{
-	width: 100%;
-	height: 200px;
-	background-color: lightgrey;
-	margin-top: 200%;
-}
-#do{
-	width: 20%;
-	text-align: center;
-	margin-top:60px;
-	margin-left: 4%;
-}
-#re{
-	width: 20%;
-	text-align: center;
-	margin-left:40%;
-	margin-top:-6%;
-}
-#re a i{
-	z-index: 1;
-	opacity: 100%;
-	color: black;
-	font-size: 25px;
-}
-#me{
-	width: 20%;
-	text-align: center;
-	margin-left: 75%;
-	margin-top: -7.5%;
-}
+
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-image: url("nav_bg.jpg");
-    overflow-x: hidden;
-    transition: 0.5s; 
-    padding-top: 60px;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-image: url("nav_bg.jpg");
+overflow-x: hidden;
+transition: 0.5s; 
+padding-top: 60px;
 }
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    display: block;
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
 }
 .sidenav a:hover {
-    color: lightgreen;
+color: lightgreen;
 }
 .sidenav .closebtn {
-    position: relative;
-    font-size: 36px;
-    margin-left: 15px;
-    top:-10px;
+position: relative;
+font-size: 36px;
+margin-left: 15px;
+top:-10px;
+}
+.LST{
+color: white;
+margin-left: 50px;
+}
+.LH{
+font-weight: 400;
+font-size: 25px;
+}
+.LH:hover{
+color:#7beec7; 
+}
+.LST:hover .SL{
+display: block;
+}
+.SL{
+display: none;
+}
+.SL a{
+display: block;
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.SL a:hover{
+text-decoration: none;
+color: #7beec7;
 }
 #last{
-	color: white;
-	font-size: 20px;
-	margin-top: 35%;
-	margin-left: 6%;
+color: white;
+font-size: 20px;
+margin-top: 65%;
+margin-left: 6%;
 }
 #last pre{
 	position: fixed;
 }
 #last i:hover{
-	color: lightgreen;
-	cursor: pointer;
+color: lightgreen;
+cursor: pointer;
 }
-#re a i:hover{
-	color: lightgreen;
-}
-.fan{
-	color: white;
-	margin-left: 2%;
-	display: none;
-}
-#miss{
+
+		#fix{
+		position: fixed;
+		margin-left: 94%;
+		margin-top:38%;
+		}
+		#fix button{
+		background-color: black;
+		}
+		#fix i{
+		font-size:40px;
+		color: white;
+		}
+			
+		#two{
+		width:79%;
+		height:20%;
+		margin-left:9.2%;
+		margin-top: 3%;
+		}
+
+	#miss{
 	font-size: 50px;
 	font-family: arial;
-	position: absolute;
 	letter-spacing: 0.2em;
 	z-index:2;
-	top: 60%;
+	margin-top: -20%;
+    position: absolute;
 	left: 15%;
-}
-#span1{
+	}
+	#span1{
 	font-weight: 900;
-
-}
-#span2{
+	}
+	#span2{
 	background-color: lightgreen;
-}
-#toBeReplaced{
-	top: -10%;
-	z-index: 30px;
-}
+	}
+	.lappy{
+	z-index:2;
+	margin-top: -10%;
+    position: absolute;
+	left: 15%;}
+	#text{
+	font-size: 40px;
+	}
+
+		.three{
+		width: 50%;
+		height:40%;
+		margin-left: 7.5%;
+		margin-top: 4.5%;
+		}
+		.three h1{
+		padding: 3.5%;
+		padding-top: 10%;
+		}
+		#x{
+		margin-top: -40px;
+		margin-left:3.7%;
+		}
+		.three pre{
+		font-size: 25px;
+		}
+		.three #matter{
+		padding-left: 3.7% ;
+		font-size: 19px;
+		color: grey;
+		}
+		#four{
+		margin-left: 62%;
+		margin-top: -24.5%;
+		overflow: hidden;
+		}
+		#four img{
+		width: 400px;
+		height:500px;	
+		}
+
+			#why{
+			margin-top:8%;
+			height: 540px;
+			width: 100%;
+			}
+			#why h1{
+			margin-left: 9%;
+			}
+			#y{
+			margin-left: 9%;
+			margin-top: -11px;
+			}
+			#why h4{
+			font-size:20px;
+			margin-left:9%;
+			margin-top: -1px;
+			}
+			.yo{
+			margin-left: 13px;
+			}
+			#why #a{
+			width:24%;
+			margin-left:8%;
+			margin-top: 10px;
+			height: 400px;
+			}
+			#a i{
+			color: black;
+			font-size:40px; 
+			}
+			#why #b{
+			width:24%;
+			margin-left:33%;
+			margin-top:-400px;
+			height: 400px;
+			}
+			#b i{
+			color: black;
+			font-size:40px; 
+			}
+			#why #c{
+			width:24%;
+			margin-left:63%;
+			margin-top:-400px;
+			height: 400px;
+			}
+			#c i{
+			color: black;
+			font-size:40px; 
+			}
+			h2{
+			padding-left:13px;
+			}
+			#why p{
+			padding:16px;
+			font-size: 18px;
+			color: grey;
+			}
+
+	#work{
+	margin-top:10%;
+	width:90%;
+	margin-left:9%;
+	z-index: 4;
+	}
+	#work h1{
+	margin-left:2px;
+	}
+	#work hr{
+	margin-top: -10px;
+	margin-left:2px;
+	}
+	#work p{
+	margin-left:2px;
+	font-size:20px;
+	}
+	.row img:hover{
+    cursor: url(cursor.png), auto;
+	opacity: 0.7;
+	}
+
+
+		#news{
+		width:80%;
+		height:300px;
+		margin-top:10%;
+		margin-left: 9%;
+		}
+		#left{
+		float: left;
+		width: 50%;
+		height: 100%;
+		background-color: lightgreen;
+		text-align: center;
+		}
+		#left p{
+		font-size: 35px;
+		}
+		#w{
+		margin-top: 15.5%;
+		font-size: 30%;
+		}
+		#right{
+		float: right;
+		width: 50%;
+		height: 100%;
+		background-color: black;
+		}
+		#btwn{
+		width: 70%;
+		height: 60%;
+		margin-top: 10%;
+		margin-left: 15%;
+		background-color:white;
+		}
+		#btwn button{
+		text-align: center;
+		padding: 14px;
+		font-size: 20px;
+		background-color: lightgreen;
+		margin-top: 7%;
+		margin-left: 30%;
+		cursor: pointer;
+		}
+		#btwn input{
+		margin-top: 10%;
+		width: 300px;
+		height: 30px;
+		margin-left: 13%;
+		}
+
+			#footer{
+				width: 100%;
+			background-color: lightgrey;
+			margin-top:10%;
+			height: 250px;
+			}
+			#do{
+			width: 20%;
+			text-align: center;
+			margin-top:60px;
+			margin-left: 4%;
+			}
+			#re{
+			width: 20%;
+			text-align: center;
+			margin-left:40%;
+			margin-top:-6%;
+			}
+			#re a i{
+			z-index: 1;
+			opacity: 100%;
+			color: black;
+			font-size: 25px;
+			}
+			#me{
+			width: 20%;
+			text-align: center;
+			margin-left: 75%;
+			margin-top: -7.5%;
+			}
+			#re a i:hover{
+			color: lightgreen;
+			}
